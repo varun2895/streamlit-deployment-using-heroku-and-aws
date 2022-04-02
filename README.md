@@ -26,6 +26,6 @@
     redshift();
 
 
-#### Deployed on Heroku the Streamlit Application:
+### Deployed on Heroku the Streamlit Application:
 
 https://streamlit-forecast-model.herokuapp.com/
