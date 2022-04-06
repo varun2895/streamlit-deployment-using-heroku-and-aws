@@ -19,7 +19,7 @@
         # Begin your transaction
         cur.execute("begin;")
 
-        cur.execute("copy demandforecast from 's3://etllambdaredshift2/Forecast_data.csv' credentials 'aws_access_key_id=AKIA3LKBZYHPGYHMHMMQ;aws_secret_access_key=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' IGNOREHEADER 1 csv;")
+        cur.execute("copy demandforecast from 's3://etllambdaredshift2/Forecast_data.csv' credentials 'aws_access_key_id=;aws_secret_access_key=' IGNOREHEADER 1 csv;")
         # Commit your transaction
         cur.execute("commit;")
         print("Copy executed fine!")
